@@ -23,7 +23,7 @@ mkdir -p "$target_dir"
 counter=1
 
 # Iterate over all files in the source directory recursively
-find "$source_dir" -type f -name "*.jpeg" | while read -r file; do
+find "$source_dir" -type f -name "*.tiff" | while read -r file; do
   # Extract the base filename
   base_name=$(basename "$file")
 

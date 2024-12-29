@@ -1,3 +1,5 @@
 .venv/
 data/
 subpatches/
+src/lib/__pycache__/
+src/__pycache__/
